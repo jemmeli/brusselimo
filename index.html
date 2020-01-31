@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Brussellimo</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700,700i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+	
+</head> 
+<body>
+		
+	<div class="content"  id='layout'>
+
+		<div class="header container">
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="logo" href="#"> <img src="images/logo.png" alt="logo"> </a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      
+
+			      <ul class="nav navbar-nav navbar-right">
+			        <li class="active"><a href="#">Acceuil </a></li>
+			        <li><a href="#">A propos</a></li>
+			        <li><a href="#">Services</a></li>
+			        <li><a href="#">Flotte</a></li>
+			        <li><a href="#">Réservation</a></li>
+			        <li><a href="#">pourquoi nous choisir</a></li>
+			        <li><a href="#">Contact</a></li> 
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</div> <!-- header end -->
+
+		<div class="mainSlider">
+
+			<!-- carrousel images/voiture.jpg-->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		        <!-- Carousel indicators -->
+		        <ol class="carousel-indicators "><!-- vertical-center -->
+		            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		            <li data-target="#myCarousel" data-slide-to="1"></li>
+		            <li data-target="#myCarousel" data-slide-to="2"></li>
+		        </ol>   
+		        <!-- Wrapper for carousel items -->
+		        <div class="carousel-inner">
+		            <div class="item active">
+		                <img src="images/header1.jpg" alt="First Slide">
+		                <div class="carousel-caption  hidden-xs"><!-- vertical-center -->
+					    	<p>BEsoin d’une <br> voiture <span> de luxe?</span></p>
+					    </div>
+		            </div>
+		            <div class="item">
+		                <img src="images/header1.jpg" alt="Second Slide">
+		                <div class="carousel-caption  hidden-xs"><!-- vertical-center -->
+					    	<p>Choisir une <br> voiture <span> de luxe?</span></p>
+					    </div>
+		            </div>
+		            <div class="item">
+		                <img src="images/header1.jpg" alt="Third Slide">
+		                <div class="carousel-caption  hidden-xs"><!-- vertical-center -->
+					    	<p>Obtenir une <br> voiture <span> de luxe?</span></p>
+					    </div>
+		            </div>
+		        </div>
+
+		    </div>
+			<!-- carrousel end -->
+			
+		</div> <!-- mainSlider -->
+
+		<div class="formBooking">
+			<h2>Réservation</h2>
+
+			<form class="form-inline">
+
+			  	<div class="row">
+				  <div class="col-sm-3">
+				    <select class="form-control">
+					  <option selected>Type de véhicule</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+				  </div>
+				  <div class="col-sm-3">
+				    <select class="form-control">
+					  <option selected>Type de Mission</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+				  </div>
+				  <div class="col-sm-3">
+						<input type='text' class="form-control dateDebut" id='datetimepicker1' placeholder="Date début" />
+				  </div>
+				  <div class="col-sm-3">
+				    <select class="form-control">
+					  <option selected>Nature du client</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+				  </div>
+				</div> 
+
+				<!-- 2nd row -->
+				<div class="row">
+				  <div class="col-sm-3">
+					    <input type='text' class="form-control dateDebut" id='datetimepicker2' placeholder="date de fin" />
+
+				  </div>
+
+				  <div class="col-sm-3">
+				    <input type="text" class="form-control iconName" id="iconName" placeholder="Nom et Prénom">
+				  </div>
+
+				  <div class="col-sm-3">
+				    <input type="email" class="form-control emailBooking" id="emailBooking" placeholder="Email">
+				  </div>
+
+				  <div class="col-sm-3">
+				    <button type="submit" class="btn btn-reservez">RESERVEZ</button>
+				  </div>
+				</div>
+
+			</form>
+
+		</div>
+
+		<div class="container">
+			<div class="brusselLimoPara">
+				<div class="col-md-8 brusselLimoParaLeft">
+
+					<h2> BRUSSELS LIMOUSINE </h2>
+					<p>
+						Brussels Limousine est une société spécialisée dans la location de voiture de luxe, avec chauffeur. Basée à Bruxelles, Brussels Limousine met à votre disposition de voitures prestigieuses de grandes marques (Mercedes Classe S, Class E et Class V).
+					</p>
+					<p>
+						Que ce soit pour un simple trajet à bord d’une voiture avec chauffeur, pour un transfert de luxe à Bruxelles, pour votre mariage ou pour toute autre cérémonie, ... Brussels Limousine répond à tous vos besoins et vos envies, quelle que soit leur nature.
+					</p>
+
+					<a href="#" class="btn btnSavoirPlus">eN SAVOIR PLUS</a>
+					
+				</div>
+				<div class="col-md-4 brusselLimoParaRight">
+					<img class="img-responsive" src="images/brusselLimoPara.png" alt="limossine">
+				</div>
+			</div>
+
+
+		</div> <!-- container end -->
+
+		<div class="brusselLimoSlider">
+			<h2>BRUSSELS LIMOUSINE SERVICES</h2>
+			
+			<div class="rotateslider-container" id="slider">
+
+				<div class="caption vertical-center">
+					LOCATION DE VOITURE <br>AVEC CHAUFFEUR
+				</div>
+
+				<!-- Insert your images here -->
+				<div class="rotateslider-item">
+					<img src="images/image1.png">
+				</div>
+				<div class="rotateslider-item">
+					<img src="images/image2.png">
+				</div>
+				<div class="rotateslider-item">
+					<img src="images/image3.png">
+				</div>
+
+				<!-- Next/prev arrows navigation -->
+				<span class="arrow right js-rotateslider-arrow" data-action="next"></span>
+				<span class="arrow left js-rotateslider-arrow" data-action="prev"></span>
+
+			</div>
+
+		</div> <!-- brusselLimoSlider -->
+
+
+		<div class="blocReservez">
+			<div class="container">
+				<div class="col-sm-6 blocReservezLeft" id="blocReservezLeft">
+					<h3>LOCATION DE VOITURE AVEC CHAUFFEUR</h3>
+					<p>
+						Notre équipe de chauffeurs professionnels sont à votre disposition pour vous accueillir et vous faire découvrir le capital de Bruxelles, ou vous déplacer pour vos affaires avec un confort maximum.
+					</p>
+
+					<h3>SOLUTIONS AUX ENTREPRISES</h3>
+					<p>
+						Brussels Limousine vous accompagne dans tous vos déplacements : séminaire, voyages d’affaires, tourisme d’affaire, congrès, transfert à l’hôtel de votre choix, au siège de votre société.
+					</p>
+
+					<h3>TRANSFERT VIP</h3>
+					<p>
+						Profitez du Transfert VIP, à tarifs préférentiels sur réservation et bénéficiez d’un déplacement confortable et économique.
+					</p>
+
+					<h3>MARIAGES/CÉRÉMONIES</h3>
+					<p>
+						Brussels Limousine vous loue une limousine de luxe pour une prestation à la hauteur de l’événement : pour un grand mariage, pour une demande fiançailles, une sortie en amoureux particulière ou pour vous rendre sur le lieu spécial et faire votre demande en mariage.
+					</p>
+
+					<h3>LOCATION DE VOITURE AVEC CHAUFFEUR</h3>
+					<p>
+						Notre équipe de chauffeurs professionnels sont à votre disposition pour vous accueillir et vous faire découvrir le capital de Bruxelles, ou vous déplacer pour vos affaires avec un confort maximum.
+					</p>
+
+					<h3>SOLUTIONS AUX ENTREPRISES</h3>
+					<p>
+						Brussels Limousine vous accompagne dans tous vos déplacements : séminaire, voyages d’affaires, tourisme d’affaire, congrès, transfert à l’hôtel de votre choix, au siège de votre société.
+					</p>
+
+					<h3>TRANSFERT VIP</h3>
+					<p>
+						Profitez du Transfert VIP, à tarifs préférentiels sur réservation et bénéficiez d’un déplacement confortable et économique.
+					</p>
+
+					<h3>MARIAGES/CÉRÉMONIES</h3>
+					<p>
+						Brussels Limousine vous loue une limousine de luxe pour une prestation à la hauteur de l’événement : pour un grand mariage, pour une demande fiançailles, une sortie en amoureux particulière ou pour vous rendre sur le lieu spécial et faire votre demande en mariage.
+					</p>
+				</div>
+
+				<div class="col-sm-6 blocReservezRight">
+					<a href="#" class="btn btn-reservez">RESERVEZ</a>
+				</div>
+
+			</div>
+		</div> <!-- blocReservez -->
+
+
+		<div class="blocNousChoisir">
+
+			<div class="col-sm-6 blocNousChoisirLeft">
+				
+			</div>
+			<div class="col-sm-6 blocNousChoisirRight">
+				<h2>Pourquoi nous choisir?</h2>
+
+				<div class="paraOdd">
+					<h3>Sécurité</h3>
+					<p>
+						Notre chauffeur vous transport à votre destination .
+					</p>
+				</div>
+				<div class="paraEven">
+					<h3>Confort</h3>
+					<p>
+						Brussels Limousine met à votre disposition des voitures.
+					</p>
+				</div>
+				<div class="paraOdd">
+					<h3>Ponctualié</h3>
+					<p>
+						Nos chauffeurs sont à votre disposition et tenus .
+					</p>
+				</div>
+
+
+			</div>
+			
+		</div> <!-- blocReservez -->
+
+
+		<div class="blocFormulaire">
+			<div class="container">
+				<div class="col-sm-6 blocFormulaireLeft"> 
+						<h2>Brussels Limousine</h2>
+						<p>
+							est une société spécialisée dans la location de voiture de luxe avec chauffeur. <br>
+							Basée à Bruxelles, Brussels Limousine met à votre disposition de voitures prestigieuses de grandes marques (Mercedes Classe S, Class E et Class V).
+						</p>
+				</div>
+				<div class="col-sm-6 blocFormulaireRight"> 
+
+					<form>
+					  <div class="form-group">
+					  	<label for="myName">Nom et Prénom</label>
+					    <input type="text" class="form-control" id="myName">
+					  </div>
+					  <div class="form-group">
+					  	<label for="myEmail">Email</label>
+					    <input type="email" class="form-control" id="myEmail">
+					  </div>
+					  <div class="form-group">
+					  	<label for="myTel">Téléphone</label>
+					    <input type="tel" class="form-control" id="myTel">
+					  </div>
+					  <button type="submit" class="btn btn-envoyer">ENVOYER</button> 
+					</form>
+					
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+
+	</div>  <!-- content end -->
+
+		<div id='layout_footer'></div>
+
+
+	</div> <!-- end content/layout -->
+	
+
+	<footer class="text-center" class="footer" id='footer'>
+		<div class="container">
+			<div class="row subFooter">
+				<div class="col-md-3">
+					<h3>Nous Choisir</h3>
+					<ul class="list-unstyled">
+						<li>Sécurité</li>
+						<li>Confort</li>
+						<li>Ponctualité</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>services</h3>
+					<ul class="list-unstyled">
+						<li>SOLUTIONS AUX ENTREPRISES</li>
+						<li>LOCATION DE VOITURE AVEC CHAUFFEUR</li>
+						<li>MARIAGES/CÉRÉMONIES</li>
+						<li>TRANSFERT VIP</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>Reservation</h3>
+					<ul class="list-unstyled">
+						<li>RESERVATION</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>NOS COORDONNÉES</h3>
+					<ul class="list-unstyled">
+						<li>Rue des Aduatiques 9 1040 Etterbeek</li>
+						<li>+32 2/437.05.67</li>
+						<li>+32 475/40.02.07</li>
+						<li>info@brussels-limousine.be</li>
+					</ul>
+				</div>
+			</div> <!-- row -->
+			<div class="row">
+				<ul class="list-inline socialIcons">
+				    <li class="list-inline-item"> <a href="#"> <img src="images/icoFb.png" alt="facebook"> </a> </li>
+				    <li class="list-inline-item"><img src="images/icoTwitter.png" alt="twitter"> </li>
+				    <li class="list-inline-item"><img src="images/icoLinkedin.png" alt="linkedIn"> </li>
+				</ul>
+			</div>
+			<div class="row">
+				<ul class="list-inline footerLinks">
+				    <li class="list-inline-item"> <a href="#"> Réservez maintenant</a></li>
+				    <li class="list-inline-item"><a href="#"> Demandez un devis gratuit</a></li>
+				    <li class="list-inline-item"><a href="#">  Plan de site</a></li>
+				</ul>
+			</div>
+		</div> <!-- container -->
+
+	</footer> 
+
+
+
+	<script src="js/jquery.min.js"></script>    
+	<script src="js/jquery.rotateSlider.js"></script> 
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/moment-with-locales.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+	<!-- https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+	<script src="js/bootstrap-datetimepicker.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/my_script.js"></script>  
+
+</body> 
+</html>
