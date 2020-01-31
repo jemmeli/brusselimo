@@ -75,7 +75,7 @@ body {
 /* line 76, ../../src/stylesheets/style.scss */
 .header .navbar-default {
   background-color: transparent;
-  border-color: transparent;
+  border-color: transparent; 
 }
 /* line 80, ../../src/stylesheets/style.scss */
 .header .navbar-default ul .active > a {
@@ -84,7 +84,7 @@ body {
 }
 /* line 86, ../../src/stylesheets/style.scss */
 .header .navbar-right {
-  margin-top: 60px;
+  margin-top: 25px;
 }
 /* line 89, ../../src/stylesheets/style.scss */
 .header .navbar-header {
