@@ -6,6 +6,7 @@
 	<title>Brussellimo</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700,700i&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link href="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
@@ -192,9 +193,17 @@
 					<img src="images/image3.png">
 				</div>
 
-				<!-- Next/prev arrows navigation -->
-				<span class="arrow right js-rotateslider-arrow" data-action="next"></span>
-				<span class="arrow left js-rotateslider-arrow" data-action="prev"></span>
+				<!-- Next/prev arrows navigation arrow left / arrow right  -->
+				<div class="arrowsContainer">
+					<span class="js-rotateslider-arrow" data-action="next">
+						<span class="arrow glyphicon glyphicon-arrow-left" aria-hidden="true"></span>	
+						<!-- <i class="fad fa-arrow-alt-from-left"></i> -->
+					</span>
+					<span class="js-rotateslider-arrow" data-action="prev">
+						<span class="arrow glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+						<!-- <i class="fad fa-arrow-alt-from-right"></i>  -->
+					</span>
+				</div>
 
 			</div>
 
