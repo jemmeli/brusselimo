@@ -1800,11 +1800,20 @@ p {
   }
   /* line 1665, ../../src/stylesheets/style.scss */
   .mainSlider .carousel .carousel-indicators {
-    width: 33%;
-    top: 100px;
-    right: 0%;
+    top: auto;
+    right: auto;
+    transform: none;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    margin-left: -30%;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
   }
-  /* line 1669, ../../src/stylesheets/style.scss */
+  /* line 1679, ../../src/stylesheets/style.scss */
   .mainSlider .carousel .carousel-indicators li {
     margin-right: 25px;
   }
@@ -1812,74 +1821,74 @@ p {
   /*mainSlider end*/
 }
 @media (max-width: 425px) {
-  /* line 1684, ../../src/stylesheets/style.scss */
+  /* line 1694, ../../src/stylesheets/style.scss */
   .mainSlider {
     /*carousel end*/
   }
-  /* line 1688, ../../src/stylesheets/style.scss */
+  /* line 1698, ../../src/stylesheets/style.scss */
   .mainSlider .carousel .carousel-inner .carousel-caption {
     top: 70px;
     right: 13%;
     left: 13%;
   }
-  /* line 1693, ../../src/stylesheets/style.scss */
+  /* line 1703, ../../src/stylesheets/style.scss */
   .mainSlider .carousel .carousel-inner .carousel-caption p {
     font-size: 19px;
     letter-spacing: 1.2px;
   }
-  /* line 1699, ../../src/stylesheets/style.scss */
+  /* line 1709, ../../src/stylesheets/style.scss */
   .mainSlider .carousel .carousel-indicators {
     width: 50%;
     top: 97px;
     right: 0%;
   }
-  /* line 1703, ../../src/stylesheets/style.scss */
+  /* line 1713, ../../src/stylesheets/style.scss */
   .mainSlider .carousel .carousel-indicators li {
     margin-right: 15px;
   }
 
   /*mainSlider end*/
-  /* line 1714, ../../src/stylesheets/style.scss */
+  /* line 1724, ../../src/stylesheets/style.scss */
   .formBooking {
     padding: 15px 30px;
     margin: 20px auto;
   }
-  /* line 1718, ../../src/stylesheets/style.scss */
+  /* line 1728, ../../src/stylesheets/style.scss */
   .formBooking ::placeholder {
     font-size: 16px;
     color: #555;
   }
-  /* line 1719, ../../src/stylesheets/style.scss */
+  /* line 1729, ../../src/stylesheets/style.scss */
   .formBooking :-ms-input-placeholder {
     font-size: 16px;
     color: #555;
   }
-  /* line 1720, ../../src/stylesheets/style.scss */
+  /* line 1730, ../../src/stylesheets/style.scss */
   .formBooking ::-ms-input-placeholder {
     font-size: 16px;
     color: #555;
   }
-  /* line 1721, ../../src/stylesheets/style.scss */
+  /* line 1731, ../../src/stylesheets/style.scss */
   .formBooking select, .formBooking input {
     font-size: 16px;
     margin-bottom: 10px;
   }
-  /* line 1726, ../../src/stylesheets/style.scss */
+  /* line 1736, ../../src/stylesheets/style.scss */
   .formBooking div.row:first-child {
     margin-bottom: 10px;
   }
-  /* line 1729, ../../src/stylesheets/style.scss */
+  /* line 1739, ../../src/stylesheets/style.scss */
   .formBooking h2 {
     font-size: 20px;
     padding-bottom: 13px;
     margin-bottom: 21px;
     margin-top: 0px;
   }
-  /* line 1735, ../../src/stylesheets/style.scss */
+  /* line 1745, ../../src/stylesheets/style.scss */
   .formBooking .rowBtn {
     text-align: center;
   }
-  /* line 1738, ../../src/stylesheets/style.scss */
+  /* line 1748, ../../src/stylesheets/style.scss */
   .formBooking .btn-reservez {
     margin-top: 20px;
     font-size: 14px;
@@ -1889,50 +1898,50 @@ p {
   }
 
   /*formBooking*/
-  /* line 1751, ../../src/stylesheets/style.scss */
+  /* line 1761, ../../src/stylesheets/style.scss */
   .brusselLimoPara .brusselLimoParaLeft h2 {
     font-size: 25px;
     margin-bottom: 16px;
     margin-top: 0;
   }
-  /* line 1756, ../../src/stylesheets/style.scss */
+  /* line 1766, ../../src/stylesheets/style.scss */
   .brusselLimoPara .brusselLimoParaLeft p {
     font-size: 16px;
     margin-bottom: 20px;
   }
-  /* line 1760, ../../src/stylesheets/style.scss */
+  /* line 1770, ../../src/stylesheets/style.scss */
   .brusselLimoPara .brusselLimoParaLeft .btnSavoirPlus {
     width: 160px;
     height: 45px;
     font-size: 13px;
     padding: 12px 19px;
   }
-  /* line 1768, ../../src/stylesheets/style.scss */
+  /* line 1778, ../../src/stylesheets/style.scss */
   .brusselLimoPara .brusselLimoParaRight img {
     margin-top: 0%;
   }
 
   /*brusselLimoPara*/
-  /* line 1775, ../../src/stylesheets/style.scss */
+  /* line 1785, ../../src/stylesheets/style.scss */
   .brusselLimoSlider {
     padding: 10px 0 60px 0;
     margin-bottom: 30px;
   }
-  /* line 1778, ../../src/stylesheets/style.scss */
+  /* line 1788, ../../src/stylesheets/style.scss */
   .brusselLimoSlider h2 {
     font-size: 23px;
     margin-bottom: 16px;
   }
-  /* line 1782, ../../src/stylesheets/style.scss */
+  /* line 1792, ../../src/stylesheets/style.scss */
   .brusselLimoSlider img {
     width: 100%;
     height: 100%;
   }
-  /* line 1786, ../../src/stylesheets/style.scss */
+  /* line 1796, ../../src/stylesheets/style.scss */
   .brusselLimoSlider .rotateslider-container {
     height: 260px;
   }
-  /* line 1788, ../../src/stylesheets/style.scss */
+  /* line 1798, ../../src/stylesheets/style.scss */
   .brusselLimoSlider .rotateslider-container .caption {
     width: 165px;
     height: 227px;
@@ -1940,37 +1949,37 @@ p {
     font-size: 11px;
     letter-spacing: 1.5px;
   }
-  /* line 1796, ../../src/stylesheets/style.scss */
+  /* line 1806, ../../src/stylesheets/style.scss */
   .brusselLimoSlider .rotateslider-container .arrow.left {
     left: 30%;
   }
-  /* line 1799, ../../src/stylesheets/style.scss */
+  /* line 1809, ../../src/stylesheets/style.scss */
   .brusselLimoSlider .rotateslider-container .arrow.right {
     right: 30%;
   }
 
   /*brusselLimoSlider end*/
-  /* line 1810, ../../src/stylesheets/style.scss */
+  /* line 1820, ../../src/stylesheets/style.scss */
   .blocReservez .blocReservezLeft {
     height: 430px;
   }
-  /* line 1812, ../../src/stylesheets/style.scss */
+  /* line 1822, ../../src/stylesheets/style.scss */
   .blocReservez .blocReservezLeft h3 {
     font-size: 16px;
     margin-bottom: 14px;
     letter-spacing: 1.3px;
   }
-  /* line 1817, ../../src/stylesheets/style.scss */
+  /* line 1827, ../../src/stylesheets/style.scss */
   .blocReservez .blocReservezLeft p {
     font-size: 14px;
     letter-spacing: 1.3px;
     margin-bottom: 25px;
   }
-  /* line 1825, ../../src/stylesheets/style.scss */
+  /* line 1835, ../../src/stylesheets/style.scss */
   .blocReservez .blocReservezRight {
     height: 430px;
   }
-  /* line 1827, ../../src/stylesheets/style.scss */
+  /* line 1837, ../../src/stylesheets/style.scss */
   .blocReservez .blocReservezRight .btn-reservez {
     bottom: 150px;
     left: 50px;
@@ -1981,11 +1990,11 @@ p {
   }
 
   /*end blocReservez*/
-  /* line 1839, ../../src/stylesheets/style.scss */
+  /* line 1849, ../../src/stylesheets/style.scss */
   .blocNousChoisir {
     padding: 20px 0;
   }
-  /* line 1842, ../../src/stylesheets/style.scss */
+  /* line 1852, ../../src/stylesheets/style.scss */
   .blocNousChoisir .blocNousChoisirLeft {
     height: 400px;
     background-size: 80%;
@@ -1995,61 +2004,61 @@ p {
     -webkit-background-size: contain;
     background-size: contain;
   }
-  /* line 1849, ../../src/stylesheets/style.scss */
+  /* line 1859, ../../src/stylesheets/style.scss */
   .blocNousChoisir .blocNousChoisirRight {
     height: 400px;
   }
-  /* line 1851, ../../src/stylesheets/style.scss */
+  /* line 1861, ../../src/stylesheets/style.scss */
   .blocNousChoisir .blocNousChoisirRight h2 {
     font-size: 27px;
     margin-bottom: 10px;
   }
-  /* line 1855, ../../src/stylesheets/style.scss */
+  /* line 1865, ../../src/stylesheets/style.scss */
   .blocNousChoisir .blocNousChoisirRight h3 {
     font-size: 18px;
     margin-bottom: 13px;
     margin-top: 0px;
   }
-  /* line 1860, ../../src/stylesheets/style.scss */
+  /* line 1870, ../../src/stylesheets/style.scss */
   .blocNousChoisir .blocNousChoisirRight p {
     font-size: 13px;
   }
-  /* line 1863, ../../src/stylesheets/style.scss */
+  /* line 1873, ../../src/stylesheets/style.scss */
   .blocNousChoisir .blocNousChoisirRight .paraOdd, .blocNousChoisir .blocNousChoisirRight .paraEven {
     padding: 15px 10px;
   }
 
   /*blocNousChoisir*/
-  /* line 1872, ../../src/stylesheets/style.scss */
+  /* line 1882, ../../src/stylesheets/style.scss */
   .blocFormulaire .blocFormulaireLeft {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  /* line 1875, ../../src/stylesheets/style.scss */
+  /* line 1885, ../../src/stylesheets/style.scss */
   .blocFormulaire .blocFormulaireLeft h2 {
     margin-bottom: 20px;
     font-size: 30px;
   }
-  /* line 1879, ../../src/stylesheets/style.scss */
+  /* line 1889, ../../src/stylesheets/style.scss */
   .blocFormulaire .blocFormulaireLeft p {
     font-size: 14px;
     max-width: 390px;
     letter-spacing: 1.4px;
   }
-  /* line 1885, ../../src/stylesheets/style.scss */
+  /* line 1895, ../../src/stylesheets/style.scss */
   .blocFormulaire .blocFormulaireRight {
     margin-top: 50px;
     padding-left: 30px;
   }
-  /* line 1888, ../../src/stylesheets/style.scss */
+  /* line 1898, ../../src/stylesheets/style.scss */
   .blocFormulaire .blocFormulaireRight label {
     font-size: 18px;
   }
-  /* line 1891, ../../src/stylesheets/style.scss */
+  /* line 1901, ../../src/stylesheets/style.scss */
   .blocFormulaire .blocFormulaireRight input {
     margin-bottom: 30px;
   }
-  /* line 1894, ../../src/stylesheets/style.scss */
+  /* line 1904, ../../src/stylesheets/style.scss */
   .blocFormulaire .blocFormulaireRight button.btn-envoyer {
     width: 170px;
     height: 46px;
@@ -2057,7 +2066,7 @@ p {
   }
 
   /*blocFormulaire*/
-  /* line 1903, ../../src/stylesheets/style.scss */
+  /* line 1913, ../../src/stylesheets/style.scss */
   #footer {
     border-top: 3px solid #eb9000;
   }
@@ -2070,7 +2079,7 @@ p {
 =================================================*/
 /*TWEAKS*/
 @media (min-width: 1440px) {
-  /* line 1924, ../../src/stylesheets/style.scss */
+  /* line 1934, ../../src/stylesheets/style.scss */
   .container {
     width: 1396px;
   }
